@@ -21,6 +21,6 @@ while i < x+1:
     else:
         i += 1
 
-print(unique_prime_factor)
 print(prime_factors)
+print(unique_prime_factor)
 # [71, 839, 1471, 6857]
