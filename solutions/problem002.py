@@ -13,7 +13,6 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 fib_list = [1,2]
 
 # Fill out the fib_list with fib sequence
-#for i in range(1,int(4e6)):
 i = 0
 while i < int(4e6):
     list_len = len(fib_list)
@@ -24,3 +23,4 @@ while i < int(4e6):
 even_fib_list = [x for x in fib_list if x%2==0]
 
 print(sum(even_fib_list))
+# 4613732
