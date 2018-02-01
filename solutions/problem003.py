@@ -24,3 +24,5 @@ while i < x+1:
 print(prime_factors)
 print(unique_prime_factor)
 # [71, 839, 1471, 6857]
+print(max(unique_prime_factor))
+# 6857
