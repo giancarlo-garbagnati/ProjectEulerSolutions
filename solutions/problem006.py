@@ -27,4 +27,4 @@ square_of_sum = sum([x for x in i])**2
 #print(square_of_sum)
 
 print(square_of_sum-sum_of_squares)
-# 
+# 25164150
