@@ -37,6 +37,7 @@ max_prod = 0
 
 for i in range(0,len(x_str)-num_prod+1):
     s = x_str[i:i+num_prod]
+    # if 0 is in the string, the product will be 0, thus not a good sequence
     if '0' not in s:
         digits_prod = prod([int(x) for x in s])
         if digits_prod > max_prod:
