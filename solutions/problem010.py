@@ -24,4 +24,4 @@ def find_all_primes(max=max):
 
 primes = find_all_primes()
 print(sum(primes))
-# 
+# 142913828922
